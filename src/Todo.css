@@ -1,0 +1,23 @@
+.todo__header {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.todo {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .todo__header {
+        font-size: xx-small;
+        text-align: center;
+    }
+}
+
+@media (min-width : 768px) {
+    .todo {
+        margin: 20px;
+        font-size: small;
+    }
+}
